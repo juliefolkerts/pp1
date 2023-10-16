@@ -1,14 +1,14 @@
 a = 50
-type(a)
+print(type(a))
 b = 149.17
-type(b)
+print(type(b))
 c = 4 * 7
-type(c)
+print(type(c))
 d = 4.0 * 7
-type(d)
+print(type(d))
 e = "Krakow University of Economics"
-type(e)
+print(type(e))
 f = True
-type(f)
+print(type(f))
 g = 2>5
-type(g)
+print(type(g))
