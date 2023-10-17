@@ -1,0 +1,6 @@
+a = int(input('Enter cube side: \n'))
+print(F'Cube side: {a}')
+cube_volume = int(a ** 3)
+cube_surface_area = int(a ** 2 * 6)
+print(F'Cube volume: {cube_volume}')
+print(F'Cube surface area: {cube_surface_area}')

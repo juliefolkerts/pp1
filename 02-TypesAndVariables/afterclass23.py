@@ -1,0 +1,8 @@
+a = float(input('Entr a:'))
+b = float(input('Enter b:'))
+c = float(input('Enter c:'))
+s = float((a + b + c) / 2)
+triangle_area = float((s * (s - a) * (s - b) * (s - c)) ** 0.5)
+triangle_circumference = float(a + b + c)
+print(F'Triangle area: {triangle_area}')
+print(F'Triangle circumference: {triangle_circumference}')

@@ -1,0 +1,8 @@
+a = int(15 * 38)
+b = int((3+4) * (5+9))
+c = float(7/2)
+d = int(48 % 5)
+e = float((8 + 7 + 4 + 2) / 4)
+f = int(2 ** 10)
+g = int(80 * 0.25)
+print(a , b , c , d , e , f , g)

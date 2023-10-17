@@ -1,0 +1,6 @@
+a = int(input('Number one:\n'))
+b = int(input('Number two:\n'))
+division_result = int(a / b)
+remainder = int(a % b)
+print(F'Division result: {division_result}')
+print(F'Remainder: {remainder}')
