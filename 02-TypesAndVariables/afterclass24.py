@@ -1,3 +1,5 @@
 vehicle_registration_no  = input('Enter vehicle registraionnumber:\n')
-if "KR" or "KK" in vehicle_registration_no:
-    print("Car from Kraków: True") #is this okay or should I use bool?
+if (vehicle_registration_no[0] == ('K')) and (vehicle_registration_no[1] == ('K') or vehicle_registration_no[1] == 'R'):
+    print('Car from Kraków: True')
+else:
+    print('Car from Kraków: False')
