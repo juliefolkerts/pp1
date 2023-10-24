@@ -9,15 +9,15 @@ elif washing_product == 'jacket':
     washing_product = int(40)
 elif washing_product == 'underwear':
     washing_product = int(70)
-rinse = bool(input('Extra rinse?:'))
-spin = bool(input('Extra spin?:'))
+rinse = True
+spin = False
 if rinse == True:
     rinse = int(15)
-else:
+elif rinse == False:
     rinse = int(0)
 if spin == True:
     spin = int(9)
-else:
+elif spin == False:
     spin = int(0)
 washing_time = (int(washing_product) + (rinse) + (spin))
 print(f'Total washing time:{washing_time}')
