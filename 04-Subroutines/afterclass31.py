@@ -8,4 +8,3 @@ def f(x, y):
 result = (f(-7, 8))
 
 print(result)
-        
