@@ -8,7 +8,3 @@ if rangechecker.check_range(number, x, y):
     print(f'Number {number} is in range {x, y}: yes')
 else:
     print(f'Number {number} is in range {x, y}: no')
-
-
-    
-
