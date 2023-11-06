@@ -5,6 +5,8 @@ while(n > 0):
     a.append(dig)
     n = n // 2
 a.reverse()
+
 print("Binary Equivalent is: ")
+
 for i in a:
-    print(i,end=" ")
+    print(i,end="")

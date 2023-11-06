@@ -1,7 +1,7 @@
 import random
-dice_1 = int(random.randrange(1,6))
-dice_2 = int(random.randrange(1,6))
-dice_3 = int(random.randrange(1,6))
+dice_1 = int(random.randrange(1,7))
+dice_2 = int(random.randrange(1,7))
+dice_3 = int(random.randrange(1,7))
 
 print(f"{dice_1}")
 print(f"{dice_2}")
