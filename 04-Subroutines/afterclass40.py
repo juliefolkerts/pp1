@@ -6,5 +6,5 @@ def f(number):
             return sum_digit
     return '0'
 
-result = f('230335')
+result = f('513553007')
 print(result)
