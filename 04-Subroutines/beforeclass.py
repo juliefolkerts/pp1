@@ -11,6 +11,6 @@ print(len(word))
 #c
 print(str(5068))
 #d
-print(int(20303))
+print(ord())
 #e
 print(min(4, 7, 2, 3, 9, 8))

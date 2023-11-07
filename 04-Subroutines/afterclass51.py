@@ -5,7 +5,7 @@ def sum(n):
             count += i
     return count
 
-result = sum(10)
+result = sum(6)
 print(result)
 #try it wih recursion
 
