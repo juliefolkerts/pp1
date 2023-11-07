@@ -6,6 +6,6 @@ test_p5 (__main__.Test.test_p5) ... ok
 test_p6 (__main__.Test.test_p6) ... ok
 
 ----------------------------------------------------------------------
-Ran 6 tests in 0.047s
+Ran 6 tests in 0.016s
 
 OK
