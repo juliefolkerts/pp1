@@ -1,7 +1,9 @@
-import cardnumber
+import ccnumber
 
-card_number = input('Enter cc number:')
-
-print(cardnumber.hey(card_number))
+cardnumber = input('Enter cc number:')
+#result = ccnumber.f(cardnumber)
+#print(result)
+result = ccnumber.f(cardnumber)
+print(result)
 
 
