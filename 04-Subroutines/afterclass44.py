@@ -12,7 +12,7 @@ def f(password):
     else:
         return False
 
-result = f('1234AB')
+result = f('1234BB')
 print(result)
     
         

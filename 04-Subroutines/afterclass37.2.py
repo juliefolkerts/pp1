@@ -9,5 +9,5 @@ def f(n):
         a, b = b, a+b
     return b
 
-result = f(9)
+result = f(5)
 print(result)

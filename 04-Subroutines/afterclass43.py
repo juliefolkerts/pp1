@@ -1,6 +1,7 @@
 def f(name):
     words = name.split()
-    acronym = ''.join(i[0] for i in words)
+    for i in words:
+        acronym = ''.join(i[0])
     return acronym
 
 result = f("For Your Info")

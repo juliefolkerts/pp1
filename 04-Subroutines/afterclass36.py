@@ -1,10 +1,18 @@
 def f(detector):
     count = 0
-    for digit in str(detector):
-        if digit == '+':
+    max_count = 0
+    for i in range(0, len(detector)):
+        if detector[i] == '+':
             count += 1
-    if count >= 3:
+            max_count = max(max_count, count)
+        elif detector[i] == '-':
+            count -= 1
+        else:
+            count = count
+    if max_count < 3:
+        return False
+    else:
         return True
 
-result = f('+-++-+--+')
+result = f('+-++-++-+---')
 print(result)
