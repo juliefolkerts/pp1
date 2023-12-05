@@ -15,5 +15,5 @@ def binary(n):
     return endresult
     
 
-result = binary(12)
+result = binary(8)
 print(result)
