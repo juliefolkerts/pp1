@@ -22,10 +22,9 @@ def f(arr):
     return result
 
 arr = [[-38, 19], [5, 40], [-7, 11], [29, 16]]
-print(f(arr))
 
 
-
+result = f(arr)
 arr = [[-38, 19], [5,40],[-7,11],[29,16]]
-print(f(arr))
+print(result)
 
