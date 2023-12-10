@@ -1,4 +1,3 @@
-brocoli
-cheese
-ham
-chocolate
+1. brocoli
+2. cheese
+1. chocolate

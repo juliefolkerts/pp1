@@ -5,6 +5,8 @@ while read_product:
     product = input("Enter product name: ")
     if product != "":
         counter += 1
+        file.write(str(counter))
+        file.write('. ')
         file.write(product)
         file.write('\n')
     else:
