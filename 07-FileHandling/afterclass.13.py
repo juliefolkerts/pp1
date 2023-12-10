@@ -1,4 +1,4 @@
-movie_titles = ['1', '2', '33', '4', '6', '77777']
+movie_titles = ['1', '2', '33', '4', '6', '7', '8', '6', '4', '5', '88']
 with open('movies.txt', 'w') as file:
     for movie in movie_titles:
         file.write(movie)
