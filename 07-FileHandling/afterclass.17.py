@@ -4,8 +4,8 @@ def display_lines(filename):
     total_lines = len(lines)
     
     for i in range(0,total_lines, 5):
-        ''.join(lines[i:(i+5)]).strip()
-        input('')
+        print(''.join(lines[i:(i+5)]).strip())
+        input()
 
-filename = 
+filename = 'movies.txt'
 print(display_lines(filename))
