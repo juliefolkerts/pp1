@@ -1,0 +1,39 @@
+{
+	"random": "35",
+	"random float": "55.349",
+	"bool": "true",
+	"date": "1988-04-25",
+	"regEx": "hellooooooooooooooooooooooooooooooooo to you",
+	"enum": "online",
+	"firstname": "Kary",
+	"lastname": "Imelida",
+	"city": "Naples",
+	"country": "South Georgia and the South Sandwich Islands",
+	"countryCode": "GN",
+	"email uses current data": "Kary.Imelida@gmail.com",
+	"email from expression": "Kary.Imelida@yopmail.com",
+	"array": [
+		"Roslyn",
+		"Tabbatha",
+		"Deloria",
+		"Marita",
+		"Natka"
+	],
+	"array of objects": [
+		{
+			"index": "0",
+			"index start at 5": "5"
+		},
+		{
+			"index": "1",
+			"index start at 5": "6"
+		},
+		{
+			"index": "2",
+			"index start at 5": "7"
+		}
+	],
+	"Marti": {
+		"age": "74"
+	}
+}

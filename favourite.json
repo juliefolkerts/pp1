@@ -1,0 +1,12 @@
+{
+    "title": "Hachi",
+    "year": 2004,
+    "actor": {
+        "leading": "Julie",
+        "supporting": "Folkerts"
+    },
+    "oscar": false,
+    "genre": "sad",
+    "rating": 9.5,
+    "times watched": 3
+}
