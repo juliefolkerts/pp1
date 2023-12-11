@@ -2,7 +2,8 @@ def hotel_list(hotels):
     list_hotels = []
     for hotel in hotels:
         list_hotels.append(hotel["name"])
-    return list_hotels
+    result = ','.join(list_hotels)
+    return result
 
 def avg_price(hotels):
     total = 0
@@ -26,16 +27,18 @@ hotels_in_Sopot = [
     {"name":"Marina","price":410.00}
 ]
 
-def cheapest(x,y):
-    if avg_price(x) < y:
-        return x
+def cheapest():
+    if avg_price(Hotels_in_Krakow) < avg_price(hotels_in_Sopot):
+        result ='Kraków'
     else:
-        return y
+        result = 'Sopot'
+    return result
+
 
 
 print(f'Hotels in Krakow: {hotel_list(Hotels_in_Krakow)}')
 print(f'Average hotel price in Krakow:{avg_price(Hotels_in_Krakow)}')
 print(f'Hotels in Sopot: {hotel_list(hotels_in_Sopot)}')
 print(f'Average hotel price in Sopot:{avg_price(hotels_in_Sopot)}')
-print(f'Cheaper hotels in: {cheapest(avg_price(Hotels_in_Krakow),avg_price(hotels_in_Sopot))}')
+print(f'Cheaper hotels in: {cheapest()}')
 
