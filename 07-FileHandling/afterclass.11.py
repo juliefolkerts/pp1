@@ -5,10 +5,9 @@ with open("numbers.txt", "w") as file:
     file.write('7\n')
     file.write('2\n')
 
-display = open("numbers.txt", "r")
-display_content = display.read()
-print(display_content)
-display.close()
+with open('numbers.txt', 'r') as file:
+    content = file.read()
+    print(content)
 
 with open("numbers.txt", 'r') as file:
     numbers = []
