@@ -4,3 +4,5 @@ with open('int.txt', 'w') as file:
 
 with open('int.txt', 'r') as file:
     print(file.read())
+
+

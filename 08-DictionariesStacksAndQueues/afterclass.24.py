@@ -1,19 +1,26 @@
-from stack import stack as Stack
+from stack import push, pop, empty, display
 
-def dec_to_bin(dec_number):
-    my_stack = Stack()  # Create an instance of the Stack class
-    dec_number = int(dec_number)
+# Function to convert decimal to binary using stack
+def decimal_to_binary(decimal):
+    while decimal > 0:
+        remainder = decimal % 2
+        push(remainder)
+        decimal //= 2
 
-    # Push all remainders onto the stack
-    while dec_number > 0:
-        remainder = dec_number % 2
-        my_stack.push(remainder)
-        dec_number = dec_number // 2
+# Get input from the user
+decimal_number = int(input("Enter a decimal number: "))
 
-    bin_number = ''
-    while not my_stack.empty():
-        bin_number += str(my_stack.pop())
-    return bin_number
+# Convert decimal to binary using the stack
+decimal_to_binary(decimal_number)
 
-dec_number = input('Enter decimal number:')
-print(dec_to_bin(dec_number))
+#bin_number = ''
+#while not my_stack.empty():
+    #bin_number += str(my_stack.pop())
+#return bin_number
+# Display the binary representation
+print("Binary representation:")
+while not empty():
+    print(pop(), end="")
+print()
+
+
