@@ -1,13 +1,14 @@
 
 def f(arr):
-    newarr = []
-    for i in range(len(arr)):
-        for j in range(i+1, len(arr)):
-            if arr[i] == arr[j]:
-                break
+    num_count = {}
+    for num in arr:
+        if num in num_count:
+            num_count[num]+=1
         else:
-            newarr.append(arr[i])
-    return newarr
+            num_count[num] = 1
+    unique_num = [num for num in num_count if num_count[num]==1]
+    return unique_num
+
 
 arr = [2,3,2,5,8,1,9,8]
 

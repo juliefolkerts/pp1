@@ -24,10 +24,9 @@ def c(text):
 
 print(a(text))
 print(b(text))
-print(c(text))
 
 #chatgpt answer for c
 original_list = ['An', 'a', 'apple', 'away', 'day', 'doctor', 'keeps', 'the']
-sorted_list = sorted(original_list, key=lambda s: s.lower())
+sorted_list = sorted(arr_words, key=lambda s: s.lower())
 
 print(sorted_list)
