@@ -9,7 +9,6 @@ def a(text):
 
 def b(text):
     arr_words = text.split()
-    new_arr = []
     for i in range(0,len(arr_words)):
         for j in range(0, len(arr_words)-i-1):
             if len(arr_words[j]) < len(arr_words[j+1]):
