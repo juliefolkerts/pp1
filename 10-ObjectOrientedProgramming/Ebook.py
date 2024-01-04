@@ -16,10 +16,9 @@ class EBook():
         if self.open:
             if self.current_page < self.num_pages:
                 self.current_page += 1
-                return None
             else:
                 return 'book is already finished'
-        else:
+        elif self.open == False:
             return 'not possible to read when the book is closed'
 
     def status(self):

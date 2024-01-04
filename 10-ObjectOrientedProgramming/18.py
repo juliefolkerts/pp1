@@ -16,9 +16,6 @@ book1.close()
 
 #book1.read_page()
 
-message = book1.read_page()
 
 print(book1.status())
 
-if message == None:
-    print(message) 
