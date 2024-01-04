@@ -10,7 +10,7 @@ class Bankacc():
     def withdraw(self,moneyy):
         self.moneyy = float(moneyy)
         if self.moneyy > self.balance:
-            return 'Insufficient funds on the account'
+            print('Insufficient funds on the account')
         else:
             self.balance = self.balance - self.moneyy
 
