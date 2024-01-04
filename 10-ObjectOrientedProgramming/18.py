@@ -1,9 +1,24 @@
-class Book():
-    def __init__(self,title,author,current_page,page_nrs=10):
-        self.title = title
-        self.author = author
-        self.page_nrs = page_nrs
-        self.current_page = current_page
+from Ebook import EBook
 
-    def open_book(self):
-        
+book1 = EBook("The Great Gatsby", "F. Scott Fitzgerald", 180)
+
+book1.is_open() 
+
+print(book1)
+
+book1.read_page()
+book1.read_page()
+book1.read_page()
+
+print(book1.status())
+
+book1.close()
+
+#book1.read_page()
+
+message = book1.read_page()
+
+print(book1.status())
+
+if message == None:
+    print(message) 
