@@ -12,6 +12,12 @@ def f(x,y,digit):
     return count
 
 
+print(f(10,15,"14"))
+print(f(100,120,"11")) 
+print(f(205,210,"04"))
+
+
+
     
 
 

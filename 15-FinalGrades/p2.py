@@ -1,8 +1,12 @@
-def f(arr):
-    result = 0
-    for nr in arr:
-        result ^= nr
-    return result
+from collections import Counter
 
-if __name__ == '__main__':
-    print(f([6,6,6,6,4,4,5,2,2,2,2,2,2]))
+def f(arr):
+    count_dict = Counter(arr)
+
+    for num, count in count_dict.items():
+        if count % 2 == 0:
+            return num
+
+# Test case
+arr = [6, 6, 6, 6, 4, 5, 2, 2, 2, 2, 2]
+print(f(arr))  # Output: 6
