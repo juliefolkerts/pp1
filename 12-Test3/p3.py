@@ -1,6 +1,6 @@
 def f(uid):
     count = 0
-    for i in range(0,len(uid)-1):
+    for i in range(0,len(uid)):
         for x in range(0,len(uid)):
             if i!=x:
                 if uid[i] == uid[x]:
@@ -14,3 +14,4 @@ def f(uid):
     
 if __name__=='__main__':
     print(f(['123','123','1','123']))
+    print(f(["bob2","BOB2"]) )
